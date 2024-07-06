@@ -1,0 +1,29 @@
+<?php get_header(); ?>
+<section class="blog-wrapper news-wrapper section-padding">
+    <div class="container">
+        <div class="news-area">
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                    <div class="blog-post-details border-wrap mt-0">
+                        <div class="single-blog-post post-details mt-0">
+                            <div class="post-content pt-0">
+                                <h2 class="mt-0"><?php the_title(); ?></h2>
+                                <div class="post-meta mt-3">
+                                    <span><i class="fal fa-user"></i><?php echo get_the_author(); ?></span>
+                                    <?php /*<span><i class="fal fa-comments"></i>15 Comments</span>*/ ?>
+                                    <span><i class="fal fa-calendar-alt"></i><?php echo get_the_date('F j, Y') ?></span>
+                                </div>
+                                <?php if (get_the_content()) { ?>
+                                    <?php echo get_the_content(); ?>
+                                <?php } else { ?>
+                                    <h1 style="text-align: center;color:red;">Coming Soon</h1>
+                                <?php } ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<?php get_footer(); ?>
