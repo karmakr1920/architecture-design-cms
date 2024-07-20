@@ -31,7 +31,7 @@ flex-direction: column;
   text-align:center;
 }
 h1{
-    font-family: 'Kaushan Script', cursive;
+    font-family: "Montserrat", "sans-serif";
   font-size:4em;
   letter-spacing:3px;
   color:#5892FF ;
@@ -42,7 +42,7 @@ h1{
   margin:0;
   font-size:1.3em;
   color:#aaa;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Montserrat", "sans-serif";
   letter-spacing:1px;
 }
 .go-home{
@@ -65,7 +65,7 @@ h1{
   margin:0;
   padding:4px;
   color:#5892FF;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Montserrat", "sans-serif";
   letter-spacing:1px;
 }
 .footer-like p a{
